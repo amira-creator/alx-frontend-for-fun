@@ -1,8 +1,9 @@
-/* File that assigns text color `#FF0000` to `button` tags and when the user hovers over `button` tags, text color should change to `#00FF00` using nested declarations. */
+/* change button color on hover*/
+$color: #FF0000;
+$color2: #00FF00;
 button {
-	color: #ff0000;
-
+	color: $color;
 	&:hover {
-		color: #00ff00;
+		color: $color2;
 	}
 }
